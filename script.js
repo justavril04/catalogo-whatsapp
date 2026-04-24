@@ -138,7 +138,7 @@ const productos = [
       mensaje += `- ${producto.nombre} / ${producto.talla}%0A`;
     });
   
-    const numero = "591XXXXXXXX";
+    const numero = "59177293686";
     window.open(`https://wa.me/${numero}?text=${mensaje}`, "_blank");
   }
   
