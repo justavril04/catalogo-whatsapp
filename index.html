@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo WhatsApp</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-center">
+      <h1>LOGO</h1>
+      <div class="socials">
+        <a href="#"><img src="img/tiktok.svg" alt="TikTok"></a>
+        <a href="#"><img src="img/facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="img/instagram.svg" alt="Instagram"></a>
+      </div>
+    </div>
+
+    <button id="btnCarrito" class="cart-button">
+      Tu carrito 🛒
+      <span id="contador" class="contador">0</span>
+    </button>
+  </header>
+
+  <main class="catalogo">
+    <section id="productos" class="grid-productos"></section>
+  </main>
+
+  <aside id="carritoPanel" class="carrito-panel oculto">
+    <button id="cerrarCarrito" class="cerrar-panel">×</button>
+
+    <h2>Carrito de compras</h2>
+
+    <div id="listaCarrito" class="lista-carrito"></div>
+
+    <button id="btnWhatsApp" class="whatsapp-button">
+      Redirigir a WhatsApp
+    </button>
+  </aside>
+
+  <footer class="footer">
+    <h2>LOGO</h2>
+    <div class="socials">♪ ● ◎</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
